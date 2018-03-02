@@ -2,17 +2,9 @@
   font-size: 2em;
 }
 
-.post {
-  font-size: 14px;
-}
-
 .post__name {
   font-size: 1.5em;
   margin: auto;
-}
-
-.section__header {
-  font-size: 12px;
 }
 
 @media (max-width: 480px) {
@@ -22,5 +14,15 @@
 
   .post {
     font-size: 12px;
+  }
+}
+
+@media (min-width: 481px) {
+  .section__header {
+    font-size: 12px;
+  }
+
+  .post {
+    font-size: 14px;
   }
 }
